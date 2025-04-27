@@ -1,4 +1,4 @@
-package com.mishra.mohak;
+package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

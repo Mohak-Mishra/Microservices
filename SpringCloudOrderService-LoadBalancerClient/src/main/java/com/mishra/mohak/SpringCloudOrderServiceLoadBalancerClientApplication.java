@@ -8,8 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class SpringCloudOrderServiceLoadBalancerClientApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudOrderServiceLoadBalancerClientApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringCloudOrderServiceLoadBalancerClientApplication.class, args);
+    }
 
 }

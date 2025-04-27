@@ -1,4 +1,4 @@
-package com.mishra.mohak;
+package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

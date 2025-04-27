@@ -1,10 +1,10 @@
-package com.mishra.mohak.springcloudcartservice;
+package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudCartServiceApplicationTests {
+class SpringCloudEurekaServerApplicationTests {
 
     @Test
     void contextLoads() {

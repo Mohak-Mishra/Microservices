@@ -1,4 +1,4 @@
-package com.mishra.mohak.springcloudcartservice.restController;
+package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient.springcloudcartservice.restController;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
