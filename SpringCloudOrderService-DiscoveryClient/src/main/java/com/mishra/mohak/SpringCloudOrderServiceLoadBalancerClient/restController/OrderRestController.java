@@ -1,4 +1,4 @@
-package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient.restControlller;
+package com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient.restController;
 
 import com.mishra.mohak.SpringCloudOrderServiceLoadBalancerClient.consumer.CartConsumer;
 import org.springframework.beans.factory.annotation.Autowired;

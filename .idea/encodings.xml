@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/SpringCloudCartService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudEurekaServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudOrderService-DiscoveryClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloudOrderService-FeignClient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudOrderService-LoadBalancerClient/src/main/java" charset="UTF-8" />
   </component>
 </project>

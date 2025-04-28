@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SpringCloudEurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudOrderService-DiscoveryClient/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudOrderService-LoadBalancerClient/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudOrderService-FeignClient/pom.xml" />
       </list>
     </option>
   </component>

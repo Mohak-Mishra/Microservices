@@ -1,9 +1,8 @@
 spring:
   application:
-    name: CartService
-
+   name: SpringCloudOrderService-FeignClient
 server:
-  port: 9998
+  port: 7777
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.value}
