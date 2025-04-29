@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/SpringCloudOrderService-DiscoveryClient/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudOrderService-LoadBalancerClient/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudOrderService-FeignClient/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudConfigServer/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,36 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloudConfigServer" />
         <module name="Cloud" />
-      </profile>
-      <profile name="Annotation profile for SpringCloudCartService" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="SpringCloudCartService" />
-      </profile>
-      <profile name="Annotation profile for SpringCloudOrderService-LoadBalancerClient" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="SpringCloudOrderService-LoadBalancerClient" />
-        <module name="scd" />
       </profile>
       <profile name="Annotation profile for SpringCloudOrderService-FeignClient" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
+        <module name="SpringCloudCartService" />
         <module name="SpringCloudOrderService-FeignClient" />
+        <module name="SpringCloudOrderService-LoadBalancerClient" />
+        <module name="scd" />
       </profile>
     </annotationProcessing>
   </component>
@@ -44,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Cloud" options="-parameters" />
       <module name="SpringCloudCartService" options="-parameters" />
+      <module name="SpringCloudConfigServer" options="-parameters" />
       <module name="SpringCloudOrderService-FeignClient" options="-parameters" />
       <module name="SpringCloudOrderService-LoadBalancerClient" options="-parameters" />
       <module name="scd" options="-parameters" />

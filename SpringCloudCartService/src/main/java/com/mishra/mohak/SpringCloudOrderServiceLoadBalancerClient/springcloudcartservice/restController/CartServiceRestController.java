@@ -11,9 +11,13 @@ import org.springframework.web.bind.annotation.*;
 public class CartServiceRestController {
     @Value("${server.port}")
     String port;
+
+    @Value("${my.app.data}")
+    String info;
+
     @GetMapping("/show")
     public ResponseEntity<String> getProduct() {
-        return new ResponseEntity<>(" This is the product "+port, HttpStatus.OK);
+        return new ResponseEntity<>(" This is the product "+port+" "+info, HttpStatus.OK);
     }
 
     @GetMapping("find/{id}")
